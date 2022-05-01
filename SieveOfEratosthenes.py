@@ -19,6 +19,8 @@ def SieveOfEratosthenes(n):
         p += 1
     prime[0] = False
     prime[1] = False
+
+    print(prime)
     # Print all prime numbers
     for p in range(n + 1):
         if prime[p]:
